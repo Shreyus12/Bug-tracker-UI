@@ -2,3 +2,19 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+  ::-webkit-scrollbar {
+    width: 8px;
+    background-image: linear-gradient(45deg, #FFF, #f1c5cd 20%, #f3cfd4 40%, #f4c9d0 60%, #FFFFFF 80%, #FFF)
+  }
+  
+::-webkit-scrollbar-track {
+    background-image: linear-gradient(45deg, #FFF, #f1c5cd 20%, #f3cfd4 40%, #f4c9d0 60%, #FFFFFF 80%, #FFF)
+  }
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(45deg, #FFF, #f1c5cd 20%, #f3cfd4 40%, #f4c9d0 60%, #FFFFFF 80%, #FFF)
+
+  }
