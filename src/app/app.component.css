@@ -9,11 +9,18 @@ mat-drawer
 }
 
 
-app-sidebar::-webkit-scrollbar {
-    width: 0;
-    background: transparent; /* optional: hide scrollbar track */
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
   }
   
-  app-sidebar {
-    scrollbar-width: none; /* Firefox */
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
   }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
