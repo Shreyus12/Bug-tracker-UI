@@ -8,3 +8,12 @@ mat-drawer
     width: 270px;
 }
 
+
+app-sidebar::-webkit-scrollbar {
+    width: 0;
+    background: transparent; /* optional: hide scrollbar track */
+  }
+  
+  app-sidebar {
+    scrollbar-width: none; /* Firefox */
+  }
