@@ -51,6 +51,11 @@ body {
 	z-index: 9999999
 }
 
+.sidebar::-webkit-scrollbar {
+	width: 0;
+	background: transparent; /* optional: hide scrollbar track */
+  }
+
 .sidebar .close-aside {
 	position: absolute;
 	top: 7px;
