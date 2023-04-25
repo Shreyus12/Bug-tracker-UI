@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Bug-tracker-app';
+
+  sideBar = true
+  isSideBarToggle()
+  {
+    this.sideBar=!this.sideBar
+  }
 }

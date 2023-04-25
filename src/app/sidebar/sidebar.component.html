@@ -1,0 +1,108 @@
+<aside class="sidebar position-relative overflow-auto float-left" id="show-side-navigation1" style="background-image: linear-gradient(45deg, #FFF, #f1c5cd 20%, #f3cfd4 40%, #f4c9d0 60%, #FFFFFF 80%, #FFF);
+">
+<div style="display: flex; align-items: center; padding: 5px; "><i (click)="sideBarToggle()" class="fa-solid fa-arrow-left"></i><h5 style="margin-left: 15px;" class="text-decoration-none" href="#">Epic Bug Tracker</h5></div>
+    <div class="sidebar-header d-flex align-items-center px-3 py-4">
+        <img style="border-radius: 30%;" width="65"
+            src="https://uniim1.shutterfly.com/ng/services/mediarender/THISLIFE/021036514417/media/23148907008/medium/1501685726/enhance"
+            alt="">
+        <div class="ms-2">
+            <h5 class="fs-6 mb-0">
+                <a class="text-decoration-none" href="#">John Doe</a>
+                <hr>
+                <a class="text-decoration-none" style="font-size: small; color: rgb(98, 95, 91);" href="#">QA Lead</a>
+            </h5>
+        </div>
+    </div>
+
+ 
+    <ul class="categories list-unstyled">
+
+    <li style="display: flex; align-items: center;">
+        <a  href="#">sections</a>
+        <a><i (click)="toggleList1()" style="margin-left: 100px;" class="fa-sharp fa-solid fa-plus fa-beat"></i></a>
+    </li>
+</ul>
+
+
+
+<ul class="categories list-unstyled"  *ngIf="showList1">
+    <li class="" style="display: flex; align-items: center;">
+        <div class="green-circle"></div>
+        <a style="margin-left: 25px;" href="#">Android</a>
+        <a href=""><i  style="margin-left: 80px;" class="fa-solid fa-ellipsis-vertical"></i></a>
+    </li>
+    <li class="" style="display: flex; align-items: center;">
+        <div class="yellow-circle"></div>
+        <a style="margin-left: 25px;" href="#">iOS</a>
+        <a href=""><i  style="margin-left: 110px;" class="fa-solid fa-ellipsis-vertical"></i></a>
+    </li>
+    <li class="" style="display: flex; align-items: center;">
+        <div class="red-circle"></div>
+        <a style="margin-left: 25px;" href="#">Website</a>
+        <a href=""><i  style="margin-left: 75px;" class="fa-solid fa-ellipsis-vertical"></i></a>
+    </li>
+    <li class="" style="display: flex; align-items: center;">
+        <div class="blue-circle"></div>
+        <a style="margin-left: 25px;" href="#">Suggestions</a>
+        <a href=""><i  style="margin-left: 45px;" class="fa-solid fa-ellipsis-vertical"></i></a>
+    </li>
+    <li class="" style="display: flex; align-items: center;">
+        <div class="violet-circle"></div>
+        <a style="margin-left: 25px;" href="#">Client Feedback</a>
+        <a href=""><i  style="margin-left: 25px;" class="fa-solid fa-ellipsis-vertical"></i></a>
+    </li>
+
+</ul>
+
+</aside>
+
+<aside class="sidebar position-relative overflow-auto float-left" id="show-side-navigation1" style="background-image: linear-gradient(45deg, #FFFFFF, #f2c9cf 20%, #e6b8be 40%, #ecdadd 60%);
+;
+">
+
+
+     
+    <ul class="categories list-unstyled">
+
+        <li class="categories list-unstyled"  style="display: flex; align-items: center;">
+            <a  href="#">Test Cases</a>
+            <a><i (click)="toggleList2()" style="margin-left: 100px;" class="fa-sharp fa-solid fa-plus fa-beat"></i></a>
+        </li>
+    </ul>
+    
+    
+    
+        <ul class="categories list-unstyled"  *ngIf="showList2">
+            <li class="" style="display: flex; align-items: center;">
+                <div class="green-circle"></div>
+                <a style="margin-left: 25px;" href="#">Mobile App</a>
+                <a href=""><i  style="margin-left: 70px;" class="fa-solid fa-ellipsis-vertical"></i></a>
+            </li>
+            <li class="" style="display: flex; align-items: center;">
+                <div class="red-circle"></div>
+                <a style="margin-left: 25px;" href="#">Web Dashboard</a>
+                <a href=""><i  style="margin-left: 35px;" class="fa-solid fa-ellipsis-vertical"></i></a>
+            </li>
+            <li class="" style="display: flex; align-items: center;">
+                <div class="blue-circle"></div>
+                <a style="margin-left: 25px;" href="#">User Onboarding</a>
+                <a href=""><i  style="margin-left: 30px;" class="fa-solid fa-ellipsis-vertical"></i></a>
+            </li>
+            <li class="" style="display: flex; align-items: center;">
+                <div class="yellow-circle"></div>
+                <a style="margin-left: 25px;" href="#">Super Admin</a>
+                <a href=""><i  style="margin-left: 55px;" class="fa-solid fa-ellipsis-vertical"></i></a>
+            </li>
+            <li class="" style="display: flex; align-items: center;">
+                <div class="violet-circle"></div>
+                <a style="margin-left: 25px;" href="#">Control Panel</a>
+                <a href=""><i  style="margin-left: 50px;" class="fa-solid fa-ellipsis-vertical"></i></a>
+            </li>
+    
+        </ul>
+        <div style="display: flex; align-items: center;">
+        <p class="text-decoration-none" style="font-size: medium; color: rgb(98, 95, 91); padding-top: 40px; margin-left: 20px;" href="#">@ 2023 Apps Team <br>0.02b 010422 Prod</p>
+        <i class="fa-solid fa-power-off fa-fade" style="margin-left: 50px; margin-top: 40px;"></i>
+    </div>
+
+</aside>

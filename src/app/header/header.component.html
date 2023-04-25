@@ -1,0 +1,43 @@
+<h4>Rover Solutions</h4>
+<div style="display: flex; align-items: center;">
+    <h5 style="padding: 5px;">12</h5><a style="padding: 5px; text-decoration: none; color: blue; margin-top: -6px;" href="">Team Members</a> | <h5 style="padding: 5px;">2
+    </h5><a style="padding: 5px; text-decoration: none; color: #000; margin-top: -6px;" href="">Guests</a>
+</div>
+
+<div class="team-members" style="margin-left: 30px;">
+    <div class="member" *ngFor="let member of members">
+      <img [src]="member.photo" alt="{{ member.name }}" />
+    </div>
+  </div>
+  
+
+  <div class="project-insight" style="color: white;">
+    <span class="project-heading" style="margin-left: 50%;">Project Insight</span>
+    <button class="btn text-light  btn-outline-light me-2 center-icon" style="margin-left: 236px;"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></button>
+
+    <div class="percentage">
+      <div class="percentage-number">59%<h6 style="margin-top: -20px; margin-left: 200px;">Tickets Fixed</h6></div>
+  
+      <div class="percentage-bar"></div>
+    </div>
+    <div class="ticket-numbers">
+        <div>
+          <span class="number">48</span>
+          <span class="name">Total Tickets</span>
+        </div>
+        <div>
+          <span class="number">29</span>
+          <span class="name">Closed Tickets</span>
+        </div>
+        <div>
+          <span class="number">19</span>
+          <span class="name">Open Tickets</span>
+        </div>
+      </div>
+      
+      
+  </div>
+  
+  
+  
+  

@@ -1,0 +1,121 @@
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.member {
+    width: 50px;
+    height: 50px;
+    background-color: #f5f5f5;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.member img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+}
+
+
+.project-insight {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 800px;
+    height: 175px;
+
+  background: linear-gradient(to bottom left, rgb(167, 59, 244) 5%, rgb(0, 183, 255)55%);
+
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+
+.percentage {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.percentage-number {
+    position: absolute;
+    top: -30px;
+
+    left: 18%;
+    transform: translateX(-50%);
+    /* Simplify the translation */
+    font-size: 60px;
+}
+
+.percentage-bar {
+    position: relative;
+    top: 70px;
+    height: 50px;
+    width: 325px;
+    border-radius: 30px;
+    border: 3px solid #ffffff;
+
+    background-color: #ffffff;
+}
+
+.percentage-bar:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 59%;
+    border-radius: 30px;
+    background-color: #00bfff;
+    animation: fill 2s ease-in-out;
+}
+
+.ticket-numbers {
+    display: flex;
+    margin-left: 45%;
+    margin-top: -45px;
+    justify-content: space-around;
+
+}
+
+.ticket-numbers>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.number
+{
+    font-size: 50px;
+}
+.closed-tickets {
+    color: #009933;
+}
+
+.open-tickets {
+    color: #cc0000;
+}
+
+
+
+@keyframes fill {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 59%;
+    }
+}
+
